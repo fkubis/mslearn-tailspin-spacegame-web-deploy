@@ -121,7 +121,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
             }
             catch (Exception)
             {
-                return RedirectToAction("/");
+                return RedirectToAction("Index");
             }
         }
 
